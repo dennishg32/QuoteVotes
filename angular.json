@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "QuoteVotes"
+    }
+  },
+  "defaultProject": "QuoteVotes",
+  "cli": {
+    "analytics": "06a058a3-8ed8-48f4-bc92-0235875dbdcc"
+  }
 }
