@@ -1,3 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+* {
+    font-family: 'Xanh Mono', monospace;
+}
+
+body {
+    background-image: url(./assets/bgpic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

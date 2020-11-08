@@ -6,8 +6,8 @@
             <div class="card justify-content text-center">
                 <div class="card-body">
                     <p>{{quote.quote}}</p>
-                    <p>{{quote.createdDate}}</p>
-                    <p>{{quote.author}}</p>
+                    <p>created on: {{quote.createdDate|date|uppercase}}</p>
+                    <p>Author: {{quote.author}}</p>
                     <div class="card-footer">
                         <button class="btn btn-outline-danger" (click)='toggleDetails(i)'>Details</button>
                         <app-quote-detail *ngIf='quote.showDescription' [quotes]='quote' (isComplete)='deleteQuote($event, i)'></app-quote-detail>
