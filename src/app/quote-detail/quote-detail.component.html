@@ -1,0 +1,10 @@
+<div class="detail">
+    <p class="card-text">Created by: {{quotes.publisher}}</p>
+    <a (click)='upvote()'>
+        <img src="/src/assets/up.png" alt="" srcset="">
+    </a>
+    <a (click)='downvote()'>
+        <img src="/src/assets/down.png" alt="" srcset="">
+    </a>
+    <p class="card-text">The quote was established {{quotes.createdDate|dayCount}} day(s) ago </p>
+</div>
