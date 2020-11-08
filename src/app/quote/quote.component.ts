@@ -23,12 +23,12 @@ export class QuoteComponent implements OnInit {
       'Albert Einstein',
       'Simon & Schuster',
       new Date(2020, 11, 8),
-      9,
-      2
+      0,
+      0
     ),
   ];
 
-  addnewQuote(quote) {
+  newQuote(quote) {
     let quoteLength = this.quotes.length;
     quote.id = quoteLength + 1;
     quote.createdDate = new Date(quote.createdDate);
