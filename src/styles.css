@@ -12,3 +12,28 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.nav-brand {
+    font-weight: 700;
+}
+
+.logo {
+    font-size: 30px;
+    color: royalblue;
+}
+
+nav a {
+    color: red;
+}
+
+nav a:hover {
+    color: rgb(204, 204, 0);
+}
+
+nav {
+    background-color: rgb(255, 255, 153);
+}
+
+#btHome {
+    margin-left: 1250px;
+}

@@ -1,12 +1,12 @@
 <div class="detail">
-    <p class="card-text">Created by: {{quotes.publisher}}</p>
+    <p class="card-text"><small>Created by: {{quotes.publisher}} </small></p>
     <a (click)='upvote()'>{{quotes.upvote}}
         <img src="https://cdn3.iconfinder.com/data/icons/basicolor-votting-awards/24/210_vote_like_up_upvote-512.png" alt="" width="30" height="30">
     </a>
     <a (click)='downvote()'>{{quotes.downvote}}
         <img src="https://cdn0.iconfinder.com/data/icons/user-interface-vol-5-4/66/7-512.png" alt="" width="30" height="30" >
     </a>
-    <p class="card-text">The quote was established {{quotes.createdDate|dayCount}} day(s) ago </p>
+    <p class="card-text"><small> The quote was established {{quotes.createdDate|dayCount}} day(s) ago</small> </p>
 
-    <button (click)='deleteQuote(true)' class="btn btn-outline-primary">Delete Quote</button>
+    <button (click)='deleteQuote(true)' class="btn btn-outline-danger">Delete Quote</button>
 </div>

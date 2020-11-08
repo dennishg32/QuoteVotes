@@ -13,7 +13,7 @@ export class QuoteComponent implements OnInit {
       'If life were predictable it would cease to be life, and be without flavor',
       'Eleanor Roosevelt',
       'Penguin Random House',
-      new Date(2020, 11, 8),
+      new Date(2020, 11, 14),
       0,
       0
     ),
@@ -22,7 +22,7 @@ export class QuoteComponent implements OnInit {
       'Life is like riding a bicycle. To keep your balance, you must keep moving.',
       'Albert Einstein',
       'Simon & Schuster',
-      new Date(2020, 11, 8),
+      new Date(2020, 11, 22),
       0,
       0
     ),
@@ -50,6 +50,7 @@ export class QuoteComponent implements OnInit {
   toggleDetails(index) {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
+
 
   constructor() {}
 
