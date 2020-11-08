@@ -13,27 +13,18 @@ export class QuoteComponent implements OnInit {
       'If life were predictable it would cease to be life, and be without flavor',
       'Eleanor Roosevelt',
       'Penguin Random House',
-      new Date(2020, 11, 08),
+      new Date(2020, 11, 8),
       0,
       0
     ),
     new Quote(
       2,
-      'My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.',
-      'Maya Angelou',
-      'Macmillan Publishers',
-      new Date(2020, 11, 08),
-      0,
-      0
-    ),
-    new Quote(
-      3,
       'Life is like riding a bicycle. To keep your balance, you must keep moving.',
       'Albert Einstein',
-      ' Simon & Schuster',
-      new Date(2020, 11, 08),
-      0,
-      0
+      'Simon & Schuster',
+      new Date(2020, 11, 8),
+      9,
+      2
     ),
   ];
 
