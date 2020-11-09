@@ -12,15 +12,14 @@ Here is a working git live page online demo: https://dennishg32.github.io/QuoteV
 
 Currently as you can see there is picture of landing page.
 
-<img src="https://github.com/dennishg32/Pizza-Lover-Shop/blob/master/images/Screenshot%20from%202020-10-11%2013-23-53.png" width="auto">
+<img src="https://github.com/dennishg32/QuoteVotes/blob/master/src/assets/landingPage.png" width="auto">
 
 ## Built with
 
 - [HTML](https://www.w3schools.com/html) - is the most basic building block of the Web. It defines the meaning and structure of web content.
 - [CSS](https://www.w3schools.com/css) - is the language we use to style an HTML document.
-- [JAVASCRIPT](https://www.w3schools.com/js/DEFAULT.asp) - JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions
+- [ANGULAR](https://angular.io/) -  is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.
 - [BOOTSTRAP](https://getbootstrap.com/) - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
-- [jQUERY](https://jquery.com/) - is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites.
 
 ## Setup/Installation Requirements
 
@@ -31,17 +30,15 @@ To access this website you must have
 
 ## BDD
 
-- Customer checks our Menu
-- Customer chooses the size of pizza
-- Customer chooses what kind of crust he or she would like the pizza to have
-- Customers choose the topping(s) they want on my pizza.
-- Customer has to place an order for Pizza and see the total charge for it.
-- Customers has an option to order as many pizzas as they want.
-- Customers have an option to have the pizza delivered or not. If delivered they will be alerted how much the delivery charge will be.
+- User will read Quotes already posted
+- User will vote according to his/her perspective
+- User will have an option to delete a quote
+- User will be able to see highlighted quote
+- User will have an option to create quote
 
 ## Known Bugs
 
-If you find a bug, kindly open an issue [here](https://github.com/dennishg32/Pizza-Lover-Shop/issues) by including your search and the expected result.
+If you find a bug, kindly open an issue [here](https://github.com/dennishg32/QuoteVotes/issues) by including your search and the expected result.
 
 ## Author
 
