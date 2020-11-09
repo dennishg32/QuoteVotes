@@ -7,7 +7,6 @@ import { Quote } from '../quote';
   styleUrls: ['./quote.component.css'],
 })
 export class QuoteComponent implements OnInit {
-
   quotes: Quote[] = [
     new Quote(
       1,
@@ -51,12 +50,19 @@ export class QuoteComponent implements OnInit {
   toggleDetails(index) {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
+
   myForm: boolean;
   formToggle() {
     this.myForm = !this.myForm;
   }
 
-
+  sortQuotes() {
+    this.quotes.sort((a, b) => (b.upvote > a.upvote ? 1 : -1));
+  }
+  highVote(index) {
+    this.quotes[index].upvote + 1;
+    this.sortQuotes();
+  }
   constructor() {}
 
   ngOnInit(): void {}

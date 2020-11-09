@@ -6,7 +6,7 @@ import { Directive, ElementRef } from '@angular/core';
 export class HighlightHighVoteDirective {
 
   constructor(private hvote: ElementRef) {
-    hvote.nativeElement.style.color = 'red';
-   }
+    hvote.nativeElement.style.color = 'orange';
+  }
 
 }
