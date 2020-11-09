@@ -11,7 +11,7 @@ export class DayCountPipe implements PipeTransform {
       today.getMonth(),
       today.getDate()
     );
-    var dateDifference = Math.abs(todayWithNoTime - value);
+    var dateDifference = Math.round (Math.abs(value - todayWithNoTime));
     const secondsInDay = 86400;
     var dateDifferenceSeconds = dateDifference * 0.001;
     var dateCounter = Math.round(dateDifferenceSeconds / secondsInDay);

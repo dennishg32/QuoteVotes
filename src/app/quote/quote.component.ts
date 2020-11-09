@@ -7,6 +7,7 @@ import { Quote } from '../quote';
   styleUrls: ['./quote.component.css'],
 })
 export class QuoteComponent implements OnInit {
+
   quotes: Quote[] = [
     new Quote(
       1,
@@ -49,6 +50,10 @@ export class QuoteComponent implements OnInit {
 
   toggleDetails(index) {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  }
+  myForm: boolean;
+  formToggle() {
+    this.myForm = !this.myForm;
   }
 
 

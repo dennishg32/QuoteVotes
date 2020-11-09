@@ -1,10 +1,12 @@
-import { Directive } from '@angular/core';
+import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
   selector: '[appHighlightHighVote]'
 })
 export class HighlightHighVoteDirective {
 
-  constructor() { }
+  constructor(private hvote: ElementRef) {
+    hvote.nativeElement.style.color = 'red';
+   }
 
 }

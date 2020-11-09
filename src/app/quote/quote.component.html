@@ -1,8 +1,15 @@
+<nav class="navbar navbar-expand-lg  pl-5 pr-5">
+    <a class="navbar-brand" href="#"><span class="logo">Q</span>blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <button (click)='formToggle()' class="btn btn-dark" id="btHome" type="button">Create new Quote</button>
+</nav>
 <div class="container">
     <h2 style="text-align: center;">Quotes</h2>
     <hr>
-    <div class="formlink">
-        <h4>add quote</h4>
+    <div class="formlink" *ngIf='myForm'>
+        <h4>Add new Quote</h4>
         <app-quote-form (addQuote)='newQuote($event)'></app-quote-form>
     </div>
     <div class="row">
@@ -17,10 +24,8 @@
                         <app-quote-detail *ngIf='quote.showDescription' [quotes]='quote' (isComplete)='deleteQuote($event, i)'></app-quote-detail>
                     </div>
                 </div>
-
             </div>
+
         </div>
-
-
     </div>
 </div>
