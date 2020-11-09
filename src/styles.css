@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
 * {
     font-family: 'Xanh Mono', monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -32,6 +35,7 @@ nav a:hover {
 
 nav {
     background-color: rgb(237, 226, 68);
+    display: flexbox;
 }
 
 #btHome {

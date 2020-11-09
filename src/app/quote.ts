@@ -1,6 +1,7 @@
 export class Quote {
   showDescription: boolean;
   myForm: boolean;
+  showTheForm: boolean;
   constructor(
     public id: number,
     public quote: string,
@@ -12,5 +13,6 @@ export class Quote {
   ) {
     this.showDescription = false;
     this.myForm = false;
+    this.showTheForm = true;
   }
 }
