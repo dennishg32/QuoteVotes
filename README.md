@@ -1,27 +1,55 @@
 # QuoteVotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+## Description
 
-## Development server
+This is web application for Quotes where user will be able to vote, to create new quote, delete a quote, and that's basically some details user will be able to interact with. after voting according to higjlights we will be able to see whether they are terrible or are inspirational.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Demo
 
-## Code scaffolding
+Here is a working git live page online demo: https://dennishg32.github.io/QuoteVotes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Landing Page
 
-## Build
+Currently as you can see there is picture of landing page.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+<img src="https://github.com/dennishg32/Pizza-Lover-Shop/blob/master/images/Screenshot%20from%202020-10-11%2013-23-53.png" width="auto">
 
-## Running unit tests
+## Built with
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [HTML](https://www.w3schools.com/html) - is the most basic building block of the Web. It defines the meaning and structure of web content.
+- [CSS](https://www.w3schools.com/css) - is the language we use to style an HTML document.
+- [JAVASCRIPT](https://www.w3schools.com/js/DEFAULT.asp) - JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions
+- [BOOTSTRAP](https://getbootstrap.com/) - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+- [jQUERY](https://jquery.com/) - is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites.
 
-## Running end-to-end tests
+## Setup/Installation Requirements
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+To access this website you must have
 
-## Further help
+- Internet access
+- Browser (chrome, safari, firefox)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## BDD
+
+- Customer checks our Menu
+- Customer chooses the size of pizza
+- Customer chooses what kind of crust he or she would like the pizza to have
+- Customers choose the topping(s) they want on my pizza.
+- Customer has to place an order for Pizza and see the total charge for it.
+- Customers has an option to order as many pizzas as they want.
+- Customers have an option to have the pizza delivered or not. If delivered they will be alerted how much the delivery charge will be.
+
+## Known Bugs
+
+If you find a bug, kindly open an issue [here](https://github.com/dennishg32/Pizza-Lover-Shop/issues) by including your search and the expected result.
+
+## Author
+
+| Denys HAGANJE                                                                                      |
+| -------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/dennishg32/webAssignment/blob/master/images/denys.jpg" width="250px"> |
+
+### License
+
+MIT © [Denys HAGANJE](https://github.com/dennishg32)
+Copyright © 2020
